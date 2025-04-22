@@ -1,0 +1,32 @@
+/* LandingPage */
+
+.LandingPage{
+    padding: 2%;
+}
+
+/* LandingPage Left */
+
+.LandingPage-left{
+    width: 30%;
+}
+
+.LandingPage-left-line1 span{
+    color: red;
+}
+
+.LandingPage-left-line2 span{
+    color: green;
+}
+
+.LandingPage-left-line2{
+    font-size: xxx-large;
+    font-weight: 700;
+}
+
+.LandingPage-left-btn{
+    background-color: rgb(255, 208, 0);
+    border-radius: 25px;
+    padding: 1% 5%;
+    margin-top: 5%;
+    cursor: pointer;
+}
