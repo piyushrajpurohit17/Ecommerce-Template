@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import LandingPage from './Components/LandinPage/LandingPage'
 import Navbar from './Components/Navbar/Navbar'
+import NewArrival from './Components/NewArrival/NewArrival'
 
 export default function App() {
   return (
@@ -11,7 +12,8 @@ export default function App() {
      {/* <Navbar/> */}
       <Routes>
 
-        < Route path='/' element={<LandingPage/>}/>
+        {/* < Route path='/' element={<LandingPage/>}/> */}
+        <Route path='/newArrival' element={<NewArrival/>}/>
         
       </Routes>
     

@@ -1,5 +1,6 @@
 import React from 'react'
 import './LandingPage.css'
+import LandinPage from "../../../public/Images/landingPageImage.png"
 
 export default function LandingPage() {
   return (
@@ -11,7 +12,8 @@ export default function LandingPage() {
         <button className='LandingPage-left-btn'> Shop Now</button>
       </div>
       <div className='LandingPage-right'>
-        <img src="" alt="" />
+        <img className='LandingPage-Img' src={LandinPage} alt="LandingPage-Img" />
+        <div className='LandingPage-Imagebackground'></div>
       </div>
     </div>
   )

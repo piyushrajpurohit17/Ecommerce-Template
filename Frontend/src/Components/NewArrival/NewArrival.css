@@ -1,0 +1,72 @@
+/* NewArrival Page */
+
+.NewArrival-h1-tag{
+  font-size: xx-large;
+  font-weight: 600;
+  text-align: center;
+  padding: 2%;
+}
+
+
+.NewArrival-element-Img{
+  height: 22vh;
+  width: 25vh;
+  padding: 5% 0% 5% 15%;
+  
+}
+
+/* Elements */
+
+.NewArrival-row1 , .NewArrival-row2{
+  display: flex;
+  justify-content: center;
+  gap: 6%;
+}
+
+.NewArrival-row2{
+  padding: 5% 0%;
+}
+
+.NewArrival-element1{
+  width: 20%;
+  border: none;
+  padding: 2%;
+  border-radius: 10px;
+  box-shadow: 0px 6px 4px   rgba(0, 0, 0, 0.1);
+}
+
+.NewArrival-discount{
+  background-color: red;
+  width: 25%;
+  border-radius: 20px;
+  padding: 0.5% 5%;
+}
+
+.NewArrival-discount p {
+  font-size: small;
+}
+
+.NewArrival-element-stars{
+  display: flex;
+}
+
+.NewArrival-element-text p{
+  font-size: large;
+}
+
+.NewArrival-element-rate{
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+
+.NewArrival-element-rate2 p {
+  font-size: small;
+  color: grey;
+  text-decoration: line-through;
+}
+
+.NewArrival-element-rate1 p{
+  color: rgb(255, 72, 0);
+  font-weight: 500;
+}
