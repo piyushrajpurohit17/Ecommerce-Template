@@ -1,9 +1,7 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import { ShoppingBag, Search } from 'lucide-react';
-import { Heart } from 'lucide-react';
-import { User } from 'lucide-react';
-import { ChevronDown } from 'lucide-react';
+import { Heart , User , ChevronDown } from 'lucide-react';
 
 export default function Navbar() {
 
@@ -61,7 +59,7 @@ export default function Navbar() {
                 <div className="Navbar-dropdown-element">
                     <div className='Navbar-dropdown-title'>
                         <button onClick={() => setOpen(!open)}> All categories  </button>
-                        <ChevronDown/>
+                        <ChevronDown size={20}/>
                     </div>
                     {open && (
                         <div className="dropdown-menu">
@@ -74,7 +72,7 @@ export default function Navbar() {
                 <div className="Navbar-dropdown-element">
                     <div className='Navbar-dropdown-title'>
                         <button onClick={() => setOpen1(!open1)}> Home  </button>
-                        <ChevronDown/>
+                        <ChevronDown size={20} />
                     </div>
 
                     {open1 && (
@@ -88,7 +86,7 @@ export default function Navbar() {
                 <div className="Navbar-dropdown-element">
                     <div className='Navbar-dropdown-title'>
                         <button onClick={() => setOpen2(!open2)}> Shop  </button>
-                        <ChevronDown/>
+                        <ChevronDown size={20} />
                     </div>
 
                     {open2 && (
@@ -102,7 +100,7 @@ export default function Navbar() {
                 <div className="Navbar-dropdown-element">
                     <div className='Navbar-dropdown-title'>
                         <button onClick={() => setOpen3(!open3)}> Hot Sale  </button>
-                        <ChevronDown/>
+                        <ChevronDown size={20} />
                     </div>
 
                     {open3 && (
@@ -116,7 +114,7 @@ export default function Navbar() {
                 <div className="Navbar-dropdown-element">
                     <div className='Navbar-dropdown-title'>
                         <button onClick={() => setOpen4(!open4)}> Vendor  </button>
-                        <ChevronDown/>
+                        <ChevronDown size={20} />
                     </div>
 
                     {open4 && (
@@ -130,7 +128,7 @@ export default function Navbar() {
                 <div className="Navbar-dropdown-element">
                     <div className='Navbar-dropdown-title'>
                         <button onClick={() => setOpen5(!open5)}> Our Blog  </button>
-                        <ChevronDown/>
+                        <ChevronDown size={20} />
                     </div>
 
                     {open5 && (
