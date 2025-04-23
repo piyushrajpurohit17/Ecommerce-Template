@@ -1,13 +1,14 @@
 /* LandingPage */
 
 .LandingPage{
-    padding: 2%;
+    display: flex;
 }
 
 /* LandingPage Left */
 
 .LandingPage-left{
-    width: 30%;
+    width: 45%;
+    padding: 5% 8%;
 }
 
 .LandingPage-left-line1 span{
@@ -29,4 +30,16 @@
     padding: 1% 5%;
     margin-top: 5%;
     cursor: pointer;
+}
+
+/* Image Part  */
+
+.LandingPage-Imagebackground{
+    background-color: forestgreen;
+    width: 50%;
+}
+
+.LandingPage-Img{
+    height: 80vh;
+    padding-left: 10%;
 }
