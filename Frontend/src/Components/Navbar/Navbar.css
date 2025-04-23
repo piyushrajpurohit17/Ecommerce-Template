@@ -60,7 +60,11 @@
 .Navbar-facility{
     display: flex;
     gap: 20%;
+}
 
+.Navbar-dropdown-title{
+    display: flex;
+    align-items: center;
 }
 
 .Navbar-facility button {
@@ -96,6 +100,7 @@ hr{
 .dropdown-menu {
     display: flex;
     flex-direction: column;
+    z-index: -1;
   }
 
   .Navbar-dropdown-title{
