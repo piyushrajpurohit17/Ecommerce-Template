@@ -1,6 +1,5 @@
 import React from 'react'
 import './Navbar.css'
-import { ShoppingBag, Search } from 'lucide-react';
 import { ShoppingBag, Search, Heart, User, ChevronDown } from 'lucide-react';
 
 
