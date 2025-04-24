@@ -6,7 +6,7 @@ export default function BestDeals() {
 
             <section className="px-6 md:px-20 py-10 mt-32">
                 <h1 className="text-4xl font-extrabold mb-8 text-[#1C1C1C]">Best Deals</h1>
-                <div className="grid md:grid-cols-2 gap-6 px-32">
+                <div className="grid md:grid-cols-2 gap-6 md:px-32">
 
                     {/* Left Big Card */}
                     <div className="bg-green-100  rounded-2xl p-6 flex flex-col">
@@ -20,12 +20,12 @@ export default function BestDeals() {
                             </div>
                         </div>
                         <div className="flex justify-end">
-                        <img src="/Images/Broccoli.png" alt="Broccoli" className="-mt-10 w-96" />
+                        <img src="/Images/Broccoli.png" alt="Broccoli" className="md:-mt-10 w-96" />
                         </div>
                     </div>
 
                     {/* Right Side Column */}
-                    <div className="flex flex-col gap-6  -mt-14">
+                    <div className="flex flex-col gap-6  md:-mt-14">
                         {/* Top Card */}
                         <div className="bg-red-100 rounded-2xl p-6 flex flex-col ">
                             <div className="flex flex-col gap-2">
@@ -37,7 +37,7 @@ export default function BestDeals() {
                                 </div>
                             </div>
                             <div className="flex justify-end">
-                                <img src="/Images/Sauce.png" alt="Salsa Sauce" className="w-60  -mt-20" />
+                                <img src="/Images/Sauce.png" alt="Salsa Sauce" className="w-60  md:-mt-20" />
                             </div>
                         </div>
 
@@ -51,7 +51,7 @@ export default function BestDeals() {
 
                                 </div>
                             </div>
-                            <div className="flex justify-end -mt-11">
+                            <div className="flex justify-end md:-mt-11">
                                 <img src="/Images/Grapes.png" alt="Grapes" className="w-80" />
                             </div>
                         </div>

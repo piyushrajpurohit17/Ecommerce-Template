@@ -15,189 +15,38 @@ export default function NewArrival() {
   return (
     <div className='NewArrivalPage'>
       <h1 className='NewArrival-h1-tag'>New Arrival Products</h1>
-      <div className='NewArrival-products'>
-        <div className='NewArrival-row1'>
-          <div className='NewArrival-element1'>
-            <div className='flex '>
-              <p className='text-white rounded-full bg-red-500 px-6 py-1'>20%</p>
-            </div>
-            <div className='NewArrival-element-Img-div'>
-              <img className='NewArrival-element-Img' src={element1} alt="NewArrival-element-Img" />
-            </div>
-            <div className='NewArrival-element-text'>
-              <p>Lorem ipsum dolor sit(poly bag)</p>
-            </div>
-            <div className='NewArrival-element-rate'>
-              <div className='NewArrival-element-rate1'>
-                <p>$199.00</p>
-              </div>
-              <div className='NewArrival-element-rate2'>
-                <p>$155.99</p>
-              </div>
-            </div>
-            <div className='NewArrival-element-stars'>
-
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="" />
-
-              <p>(2)</p>
-            </div>
-          </div>
-
-          <div className='NewArrival-element1'>
-            <div className='flex '>
-              <p className='text-white rounded-full bg-red-500 px-6 py-1'>20%</p>
-            </div>
-            <div className='NewArrival-element-Img-div'>
-              <img className='NewArrival-element-Img' src={element2} alt="NewArrival-element-Img" />
-            </div>
-            <div className='NewArrival-element-text'>
-              <p>Lorem ipsum dolor sit(poly bag)</p>
-            </div>
-            <div className='NewArrival-element-rate'>
-              <div className='NewArrival-element-rate1'>
-                <p>$ 199.00</p>
-              </div>
-              <div className='NewArrival-element-rate2'>
-                <p>$ 155.99</p>
-              </div>
-            </div>
-            <div className='NewArrival-element-stars'>
-
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="" />
-
-              <p>(2)</p>
-            </div>
-          </div>
-
-          <div className='NewArrival-element1'>
-            <div className='flex '>
-              <p className='text-white rounded-full bg-red-500 px-6 py-1'>20%</p>
-            </div>
-            <div className='NewArrival-element-Img-div'>
-              <img className='NewArrival-element-Img' src={element3} alt="NewArrival-element-Img" />
-            </div>
-            <div className='NewArrival-element-text'>
-              <p>Lorem ipsum dolor sit(poly bag)</p>
-            </div>
-            <div className='NewArrival-element-rate'>
-              <div className='NewArrival-element-rate1'>
-                <p>$ 199.00</p>
-              </div>
-              <div className='NewArrival-element-rate2'>
-                <p>$ 155.99</p>
-              </div>
-            </div>
-            <div className='NewArrival-element-stars'>
-
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="" />
-
-              <p>(2)</p>
-            </div>
-          </div>
+      <div className=' '>
+      <div className="grid md:grid-cols-3 gap-10 mb-10">
+  {[element1, element2, element3, element4, element5, element1].map((imgSrc, index) => (
+    <div key={index} className="NewArrival-element1 justify-self-center">
+      <div className="flex">
+        <p className="text-white rounded-full bg-red-500 px-6 py-1">20%</p>
+      </div>
+      <div className="NewArrival-element-Img-div">
+        <img className="w-40 h-40" src={imgSrc} alt="NewArrival-element-Img" />
+      </div>
+      <div className="NewArrival-element-text">
+        <p>Lorem ipsum dolor sit(poly bag)</p>
+      </div>
+      <div className="NewArrival-element-rate">
+        <div className="NewArrival-element-rate1">
+          <p>$199.00</p>
         </div>
-        <div className='NewArrival-row2'>
-          <div className='NewArrival-element1'>
-            <div className='flex '>
-              <p className='text-white rounded-full bg-red-500 px-6 py-1'>20%</p>
-            </div>
-            <div className='NewArrival-element-Img-div'>
-              <img className='NewArrival-element-Img' src={element4} alt="NewArrival-element-Img" />
-            </div>
-            <div className='NewArrival-element-text'>
-              <p>Lorem ipsum dolor sit(poly bag)</p>
-            </div>
-            <div className='NewArrival-element-rate'>
-              <div className='NewArrival-element-rate1'>
-                <p>$ 199.00</p>
-              </div>
-              <div className='NewArrival-element-rate2'>
-                <p>$ 155.99</p>
-              </div>
-            </div>
-            <div className='NewArrival-element-stars'>
-
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="" />
-
-              <p>(2)</p>
-            </div>
-          </div>
-
-          <div className='NewArrival-element1'>
-            <div className='flex '>
-              <p className='text-white rounded-full bg-red-500 px-6 py-1'>20%</p>
-            </div>
-            <div className='NewArrival-element-Img-div'>
-              <img className='NewArrival-element-Img' src={element5} alt="NewArrival-element-Img" />
-            </div>
-            <div className='NewArrival-element-text'>
-              <p>Lorem ipsum dolor sit(poly bag)</p>
-            </div>
-            <div className='NewArrival-element-rate'>
-              <div className='NewArrival-element-rate1'>
-                <p>$ 199.00</p>
-              </div>
-              <div className='NewArrival-element-rate2'>
-                <p>$ 155.99</p>
-              </div>
-            </div>
-            <div className='NewArrival-element-stars'>
-
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="" />
-
-              <p>(2)</p>
-            </div>
-          </div>
-
-          <div className='NewArrival-element1'>
-            <div className='flex '>
-              <p className='text-white rounded-full bg-red-500 px-6 py-1'>20%</p>
-            </div>
-            <div className='NewArrival-element-Img-div'>
-              <img className='NewArrival-element-Img' src={element1} alt="NewArrival-element-Img" />
-            </div>
-            <div className='NewArrival-element-text'>
-              <p>Lorem ipsum dolor sit(poly bag)</p>
-            </div>
-            <div className='NewArrival-element-rate'>
-              <div className='NewArrival-element-rate1'>
-                <p>$ 199.00</p>
-              </div>
-              <div className='NewArrival-element-rate2'>
-                <p>$ 155.99</p>
-              </div>
-            </div>
-            <div className='NewArrival-element-stars'>
-
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-              <FontAwesomeIcon icon={faStar} className="" />
-
-              <p>(2)</p>
-            </div>
-          </div>
+        <div className="NewArrival-element-rate2">
+          <p>$155.99</p>
         </div>
+      </div>
+      <div className="NewArrival-element-stars">
+        {[...Array(4)].map((_, i) => (
+          <FontAwesomeIcon key={i} icon={faStar} className="text-yellow-500" />
+        ))}
+        <FontAwesomeIcon icon={faStar} />
+        <p>(2)</p>
+      </div>
+    </div>
+  ))}
+  </div>
+
       </div>
     </div>
   )

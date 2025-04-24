@@ -52,14 +52,14 @@ export default function Feedback() {
                 </div>
             </div>
 
-            <div className="px-20">
+            <div className="md:px-20 px-4">
                 <div className="grid grid-cols-3 items-center pt-20">
-                    <h1 className="text-4xl font-bold col-span-2">
+                    <h1 className="md:text-4xl text-xl font-bold col-span-2">
                         What our Customers <br /> Have to Say...
                     </h1>
 
-                    <div className="col-end-4 justify-self-center">
-                        <button className='bg-[#FA9E20] font-bold px-6 py-2 rounded-full'>Join The PioMart</button>
+                    <div className="md:col-end-4 md:justify-self-center max-md:w-full">
+                        <button className='bg-[#FA9E20] max-md:text-sm   font-bold px-6 py-2 rounded-full'>Join The PioMart</button>
                     </div>
 
                     <div className="col-span-3">

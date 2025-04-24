@@ -5,27 +5,27 @@ const OrderSummary = ({ cart = [], totalAmount = 0 }) => {
   const itemsRef = useRef([]);
   const messageRef = useRef(null);
 
-  useLayoutEffect(() => {
-    gsap.from(itemsRef.current, {
-      opacity: 0,
-      y: 50,
-      stagger: 0.2,
-      duration: 1,
-      ease: 'power3.out',
-    });
+  // useLayoutEffect(() => {
+  //   gsap.from(itemsRef.current, {
+  //     opacity: 0,
+  //     y: 50,
+  //     stagger: 0.2,
+  //     duration: 1,
+  //     ease: 'power3.out',
+  //   });
 
-    gsap.from(messageRef.current, {
-      opacity: 0,
-      scale: 0.5,
-      duration: 1.5,
-      delay: 1.5,
-      ease: 'elastic.out(1, 0.75)',
-    });
-  }, []);
+  //   gsap.from(messageRef.current, {
+  //     opacity: 0,
+  //     scale: 0.5,
+  //     duration: 1.5,
+  //     delay: 1.5,
+  //     ease: 'elastic.out(1, 0.75)',
+  //   });
+  // }, []);
 
   return (
     <section className="order-summary bg-gray-50  p-6">
-      <div className="mx-auto">
+      <div className="mx-auto max-w-4xl">
         <div className="bg-white p-8 rounded-lg shadow-lg">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Order Summary</h2>
 

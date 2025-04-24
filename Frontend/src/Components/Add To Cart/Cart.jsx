@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Cart = () => {
   const calculateTotal = (cartItems) => {
@@ -35,11 +36,11 @@ const Cart = () => {
   return (
     <section className="bg-gray-50  p-6">
       <div className=" mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Left Side: Product List (removed "Add to Cart" button) */}
           <div className="col-span-2 bg-white p-6 rounded-lg shadow-lg">
             <h2 className="text-3xl font-bold text-gray-800 mb-8">Product List</h2>
-            <div className="grid grid-cols-3 overflow-y-auto h-96 py-6 gap-6">
+            <div className="grid md:grid-cols-3 overflow-y-auto h-96 py-6 gap-6">
               {[1, 2, 3, 4, 5].map((item) => (
                 <div key={item} className="bg-white rounded-lg shadow-lg p-4 hover:shadow-2xl transition-shadow duration-300">
                   <h4 className="text-xl font-semibold text-gray-800">Product {item}</h4>
@@ -105,11 +106,13 @@ const Cart = () => {
                 <h3 className="text-xl font-semibold text-gray-800">Total</h3>
                 <p className="text-xl font-semibold text-gray-900">${totalAmount.toFixed(2)}</p>
               </div>
+              <Link to="/address">
               <button
                 className="w-full bg-green-600 text-white py-3 rounded-lg mt-6 hover:bg-green-700 transition-colors duration-300"
               >
                 Proceed to Checkout
               </button>
+              </Link>
             </div>
           </div>
         </div>

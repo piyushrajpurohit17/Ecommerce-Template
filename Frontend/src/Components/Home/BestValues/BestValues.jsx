@@ -26,7 +26,7 @@ const features = [
 
 export default function BestValues() {
     return (
-        <section className="p-20 mt-40">
+        <section className="md:p-20 p-4 mt-40">
             <div className=" mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                 {/* Left: Feature Cards */}
                 <div className="grid grid-cols-2 gap-6 justify-self-center">

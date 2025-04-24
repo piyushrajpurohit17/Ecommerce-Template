@@ -1,63 +1,73 @@
 /* NewArrival Page */
-
-.NewArrival-h1-tag{
-  font-size: xx-large;
+.NewArrival-h1-tag {
+  font-size: 2rem;
   font-weight: 600;
   text-align: center;
   padding: 2%;
 }
 
-
-.NewArrival-element-Img{
-  height: 22vh;
-  width: 25vh;
-  padding: 5% 0% 5% 15%;
-  
+/* Elements Grid */
+.NewArrival-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  justify-items: center;
 }
 
-/* Elements */
+.NewArrival-element1 {
+  width: 100%;
+  max-width: 300px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
 
-.NewArrival-row1 , .NewArrival-row2{
+/* Image */
+.NewArrival-element-Img-div {
   display: flex;
   justify-content: center;
-  gap: 6%;
 }
 
-.NewArrival-row2{
-  padding: 5% 0%;
+.NewArrival-element-Img {
+  height: auto;
+  max-width: 100%;
 }
 
-.NewArrival-element1{
-  width: 20%;
-  border: none;
-  padding: 2%;
-  border-radius: 10px;
-  box-shadow: 0px 6px 4px   rgba(0, 0, 0, 0.1);
+/* Discount Badge */
+.NewArrival-discount,
+.NewArrival-element1 .flex {
+  display: flex;
+  justify-content: flex-start;
 }
 
-.NewArrival-discount{
+.NewArrival-discount p,
+.NewArrival-element1 .flex p {
   background-color: red;
-  width: 25%;
+  color: white;
   border-radius: 20px;
-  padding: 0.5% 5%;
-}
-
-.NewArrival-discount p {
+  padding: 0.25rem 1.25rem;
   font-size: small;
 }
 
-.NewArrival-element-stars{
-  display: flex;
+/* Product Text */
+.NewArrival-element-text p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
 }
 
-.NewArrival-element-text p{
-  font-size: large;
-}
-
-.NewArrival-element-rate{
+/* Pricing */
+.NewArrival-element-rate {
   display: flex;
   align-items: center;
-  gap: 5%;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.NewArrival-element-rate1 p {
+  color: rgb(255, 72, 0);
+  font-weight: 500;
 }
 
 .NewArrival-element-rate2 p {
@@ -66,7 +76,16 @@
   text-decoration: line-through;
 }
 
-.NewArrival-element-rate1 p{
-  color: rgb(255, 72, 0);
-  font-weight: 500;
+/* Stars */
+.NewArrival-element-stars {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 0.5rem;
+}
+
+.NewArrival-element-stars p {
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  color: #333;
 }
