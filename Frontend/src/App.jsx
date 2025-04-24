@@ -13,6 +13,7 @@ import Address from './Components/Address/Address'
 import UserProfile from './Components/Profile/UserProfile'
 import Cart from './Components/Add To Cart/Cart'
 import OrderSummary from './Components/OrderSummery/OrderSummery'
+import BuyingPage from './Components/BuyingPage/BuyingPage'
 
 
 
@@ -39,6 +40,8 @@ export default function App() {
         <Route path='/Profile' element={<UserProfile/>}/>
         <Route path='/AddToCart' element={<Cart/>} />
         <Route path='ordersummery' element={<OrderSummary cart={cart} totalAmount={totalAmount} />} />
+        <Route path='/productlist' element={<ProductList/>}/>
+        <Route path='/buyingpage' element={<BuyingPage/>}/>
         
         
       </Routes>
