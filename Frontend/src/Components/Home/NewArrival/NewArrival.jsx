@@ -1,11 +1,13 @@
 import React from 'react'
 import './NewArrival.css'
 import { Star } from 'lucide-react';
-import element1 from '../../../public/Images/element1.png'
-import element2 from '../../../public/Images/element2.png'
-import element3 from '../../../public/Images/element3.png'
-import element4 from '../../../public/Images/element4.png'
-import element5 from '../../../public/Images/element5.png'
+import element1 from '/Images/element1.png'
+import element2 from '/Images/element2.png'
+import element3 from '/Images/element3.png'
+import element4 from '/Images/element4.png'
+import element5 from '/Images/element5.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 export default function NewArrival() {
 
@@ -16,8 +18,8 @@ export default function NewArrival() {
       <div className='NewArrival-products'>
         <div className='NewArrival-row1'>
           <div className='NewArrival-element1'>
-            <div className='NewArrival-discount'>
-              <p>20%</p>
+            <div className='flex '>
+              <p className='text-white rounded-full bg-red-500 px-6 py-1'>20%</p>
             </div>
             <div className='NewArrival-element-Img-div'>
               <img className='NewArrival-element-Img' src={element1} alt="NewArrival-element-Img" />
@@ -34,18 +36,20 @@ export default function NewArrival() {
               </div>
             </div>
             <div className='NewArrival-element-stars'>
-              <Star fill="#ffd858"/>
-              <Star fill="#ffd858"/>
-              <Star fill="#ffd858"/>
-              <Star fill="#ffd858"/>
-              <Star fill="lightgrey"/>
+
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="" />
+
               <p>(2)</p>
             </div>
           </div>
 
           <div className='NewArrival-element1'>
-            <div className='NewArrival-discount'>
-              <p>20%</p>
+            <div className='flex '>
+              <p className='text-white rounded-full bg-red-500 px-6 py-1'>20%</p>
             </div>
             <div className='NewArrival-element-Img-div'>
               <img className='NewArrival-element-Img' src={element2} alt="NewArrival-element-Img" />
@@ -62,18 +66,20 @@ export default function NewArrival() {
               </div>
             </div>
             <div className='NewArrival-element-stars'>
-              <Star fill="#ffd858"/>
-              <Star fill="#ffd858"/>
-              <Star fill="#ffd858"/>
-              <Star fill="#ffd858"/>
-              <Star fill="lightgrey"/>
+
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="" />
+
               <p>(2)</p>
             </div>
           </div>
 
           <div className='NewArrival-element1'>
-            <div className='NewArrival-discount'>
-              <p>20%</p>
+            <div className='flex '>
+              <p className='text-white rounded-full bg-red-500 px-6 py-1'>20%</p>
             </div>
             <div className='NewArrival-element-Img-div'>
               <img className='NewArrival-element-Img' src={element3} alt="NewArrival-element-Img" />
@@ -90,19 +96,21 @@ export default function NewArrival() {
               </div>
             </div>
             <div className='NewArrival-element-stars'>
-              <Star fill="#ffd858"/>
-              <Star fill="#ffd858"/>
-              <Star fill="#ffd858"/>
-              <Star fill="#ffd858"/>
-              <Star fill="lightgrey"/>
+
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="" />
+
               <p>(2)</p>
             </div>
           </div>
         </div>
         <div className='NewArrival-row2'>
-        <div className='NewArrival-element1'>
-            <div className='NewArrival-discount'>
-              <p>20%</p>
+          <div className='NewArrival-element1'>
+            <div className='flex '>
+              <p className='text-white rounded-full bg-red-500 px-6 py-1'>20%</p>
             </div>
             <div className='NewArrival-element-Img-div'>
               <img className='NewArrival-element-Img' src={element4} alt="NewArrival-element-Img" />
@@ -119,18 +127,20 @@ export default function NewArrival() {
               </div>
             </div>
             <div className='NewArrival-element-stars'>
-              <Star fill="#ffd858"/>
-              <Star fill="#ffd858"/>
-              <Star fill="#ffd858"/>
-              <Star fill="#ffd858"/>
-              <Star fill="lightgrey"/>
+
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="" />
+
               <p>(2)</p>
             </div>
           </div>
 
           <div className='NewArrival-element1'>
-            <div className='NewArrival-discount'>
-              <p>20%</p>
+            <div className='flex '>
+              <p className='text-white rounded-full bg-red-500 px-6 py-1'>20%</p>
             </div>
             <div className='NewArrival-element-Img-div'>
               <img className='NewArrival-element-Img' src={element5} alt="NewArrival-element-Img" />
@@ -147,18 +157,20 @@ export default function NewArrival() {
               </div>
             </div>
             <div className='NewArrival-element-stars'>
-              <Star fill="#ffd858"/>
-              <Star fill="#ffd858"/>
-              <Star fill="#ffd858"/>
-              <Star fill="#ffd858"/>
-              <Star fill="lightgrey"/>
+
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="" />
+
               <p>(2)</p>
             </div>
           </div>
 
           <div className='NewArrival-element1'>
-            <div className='NewArrival-discount'>
-              <p>20%</p>
+            <div className='flex '>
+              <p className='text-white rounded-full bg-red-500 px-6 py-1'>20%</p>
             </div>
             <div className='NewArrival-element-Img-div'>
               <img className='NewArrival-element-Img' src={element1} alt="NewArrival-element-Img" />
@@ -175,11 +187,13 @@ export default function NewArrival() {
               </div>
             </div>
             <div className='NewArrival-element-stars'>
-              <Star fill="#ffd858"/>
-              <Star fill="#ffd858"/>
-              <Star fill="#ffd858"/>
-              <Star fill="#ffd858"/>
-              <Star fill="lightgrey"/>
+
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+              <FontAwesomeIcon icon={faStar} className="" />
+
               <p>(2)</p>
             </div>
           </div>

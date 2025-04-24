@@ -1,12 +1,13 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './Components/Navbar/Navbar'
-import NewArrival from './Components/NewArrival/NewArrival'
+
 import Footer from './Components/Footer/Footer'
 
 
 import HomeMian from './Components/Home/HomeMain/HomeMian'
 import './App.css'
+import Login from './Components/Login/Login'
 
 
 
@@ -18,8 +19,9 @@ export default function App() {
      <Navbar/>
       <Routes>
 
-        < Route path='/' element={<LandingPage/>}/>
-        <Route path='/newArrival' element={<NewArrival/>}/>
+        < Route path='/' element={<HomeMian/>}/>
+        <Route path='/Login' element={<Login/>} />
+        
         
       </Routes>
     < Footer/>

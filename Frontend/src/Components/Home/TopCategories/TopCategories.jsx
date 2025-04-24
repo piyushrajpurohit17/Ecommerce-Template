@@ -36,9 +36,9 @@ export default function TopCategories() {
     };
 
     return (
-        <section className="  py-10  mt-10 h-full">
+        <section className="  py-10  mt-20 h-full">
             <div className="absolute  -z-10 mt-52 ">
-                <img src="/Images/background.png" alt="" className="slanted-background w-3/5" />
+                <img src="/Images/background.png" alt="" className="slanted-background w-3/5 " />
             </div>
 
             <div className="">
