@@ -9,6 +9,7 @@ import HomeMian from './Components/Home/HomeMain/HomeMian'
 import './App.css'
 import Login from './Components/Login/Login'
 import ProductList from './Components/ProductList/ProductList'
+import BuyingPage from './Components/BuyingPage/BuyingPage'
 
 
 
@@ -22,7 +23,8 @@ export default function App() {
 
         {/* < Route path='/' element={<HomeMian/>}/> */}
         {/* <Route path='/Login' element={<Login/>} /> */}
-        <Route path='/productlist' element={<ProductList/>}/>
+        {/* <Route path='/productlist' element={<ProductList/>}/> */}
+        <Route path='/buyingpage' element={<BuyingPage/>}/>
         
         
       </Routes>

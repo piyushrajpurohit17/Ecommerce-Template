@@ -1,0 +1,44 @@
+.BuyingPage-heroSection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2%;
+}
+
+.BuyingPage-img{
+    height: 50vh;
+    padding-left: 20%;
+}
+
+.BuyingPage-detail-Side h1{
+    font-size: large;
+    font-weight: 500;
+    padding-bottom: 1%;
+}
+
+.BuyingPage-rate{
+    display: flex;
+    align-items: center;
+    padding-bottom: 1%;
+}
+
+.BuyingPage-btn{
+    background-color: green ;
+    color: white;
+    border-radius: 15px;
+    padding: 1% 3%;
+    margin: 1%;
+    cursor: pointer;
+}
+
+.BuyingPage-ptag-details{
+    width: 80%;
+    padding-top: 1%;
+}
+
+.BuyingPage-detail-Side h3 {
+    padding: 1% 0%;
+}
+
+.BuyingPage-heroSection hr {
+    transform: rotateX('10');
+}
