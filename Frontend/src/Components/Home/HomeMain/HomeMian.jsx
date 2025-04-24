@@ -17,7 +17,6 @@ export default function HomeMian() {
             <NewArrival/>
             <Feedback/>
             <BestValues/>
-
         </section>
     
     
