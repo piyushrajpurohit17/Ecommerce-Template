@@ -5,7 +5,7 @@ import { ShoppingBag, Search, Heart, User, ChevronDown } from 'lucide-react';
 
 export default function Navbar() {
     return (
-        <div className='NavbarPage'>
+        <div className='NavbarPage shadow-2xl py-4'>
             <div className='Navbar'>
                 <div className='Navbar-logo-side'>
                     <div className='Navbar-logo-img'>
