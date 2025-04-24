@@ -40,5 +40,8 @@
 }
 
 .BuyingPage-heroSection hr {
-    transform: rotateX('10');
+    transform: rotateX(90deg);
+    width: 1px;
+    background-color: black;
+
 }
